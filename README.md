@@ -37,7 +37,7 @@ Fue realizado bajo la siguiente arquitectura:
 
 ## English
 
-This small exercise consists of a small API Rest made with PHP Native (That means the PHP_ in the title) that will be useful for some users who wish to implement a login and a registry for users, as well as its control in a database, It works through requests __HTTP__.
+This small exercise consists of a small API Rest made with PHP Native (That means the PHP_ in the title) that will be useful for some users who wish to implement a login and a registry for users, as well as its control in a database, It works through __HTTP__ requests.
 
 It was made under the following architecture:
 
