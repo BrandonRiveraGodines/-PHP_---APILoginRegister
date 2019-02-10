@@ -2,7 +2,7 @@
 
 ## Español
 
-Éste pequeño ejercicio consiste en una pequeña API Rest realizada con PHP Nativo (Eso significa el PHP_ en el titulo) que será de utilidad para algunos usuarios y será enfocado en su totalidad para agregar al conjunto de aportes a mi portafolio personal. 
+Éste pequeño ejercicio consiste en una pequeña API Rest realizada con PHP Nativo (Eso significa el PHP_ en el titulo) que será de utilidad para algunos usuarios que deseen implementar un login (inicio de sesión) y un registro para usuarios, así como su control en una base de datos, funciona a través de peticiones __HTTP__.
 
 Fue realizado bajo la siguiente arquitectura:
 
@@ -17,11 +17,11 @@ Fue realizado bajo la siguiente arquitectura:
 ### Cosas a considerar
 
 * La API se comunica a través del protocolo __HTTP__ y en específico peticiones __POST__ para enviar los parámetros sin que estos viajen por la URL si no en la cabecera.
-* Los parámetros que recibe al hacer la petición en la URL **_/login/register_** son:
+* Los parámetros que recibe al hacer la petición en la URL **_../../register_** son:
     * __name__
     * __email__
     * __password__
-* Los parámetros que recibe al hacer la petición en la URL **_/login/login_** son:
+* Los parámetros que recibe al hacer la petición en la URL **_../../login_** son:
     * __email__
     * __password__
 * Las respuestas __positivas__ de las peticiones son en formato __JSON__ con los siguientes paráametros:
@@ -37,7 +37,7 @@ Fue realizado bajo la siguiente arquitectura:
 
 ## English
 
-This small exercise consists of a small API Rest made with PHP Native (That means the PHP_ in the title) that will be useful for some users and will be focused in its entirety to add to the set of contributions to my personal portfolio.
+This small exercise consists of a small API Rest made with PHP Native (That means the PHP_ in the title) that will be useful for some users who wish to implement a login and a registry for users, as well as its control in a database, It works through requests __HTTP__.
 
 It was made under the following architecture:
 
