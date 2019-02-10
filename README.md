@@ -17,6 +17,13 @@ Fue realizado bajo la siguiente arquitectura:
 ### Cosas a considerar
 
 * La API se comunica a través del protocolo __HTTP__ y en específico peticiones __POST__ para enviar los parámetros sin que estos viajen por la URL si no en la cabecera.
+* Los parámetros que recibe al hacer la petición en la URL **_/login/register_** son:
+    * __name__
+    * __email__
+    * __password__
+* Los parámetros que recibe al hacer la petición en la URL **_/login/login_** son:
+    * __email__
+    * __password__
 * Las respuestas __positivas__ de las peticiones son en formato __JSON__ con los siguientes paráametros:
     * __uuid__
     * __name__
@@ -45,6 +52,13 @@ It was made under the following architecture:
 ### Things to know
 
 * The API communicates through the __HTTP__ protocol and in specific __POST__ requests to send the parameters without them traveling through the URL if not in the header.
+* The parameters that you receive when making the request in the URL **_/login/register_** are:
+    * __name__
+    * __email__
+    * __password__
+* The parameters that you receive when making the request in the URL **_/login/login_** are:
+    * __email__
+    * __password__
 * The __positive__ responses of the requests are in __JSON__ format with the following parameters:
     * __uuid__
     * __name__
