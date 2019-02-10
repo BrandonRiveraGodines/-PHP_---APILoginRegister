@@ -19,9 +19,9 @@ Fue realizado bajo la siguiente arquitectura:
 
 * La API se comunica a través del protocolo HTTP y en específico peticiones __POST__ para enviar los parámetros sin que estos viajen por la URL si no en la cabecera.
 * Las respuestas de las peticiones son en formato __JSON__ con los siguientes parametros (__SOLO SI LA RESPUESTA ES POSITIVA__):
-** __uuid__
-** __name__
-** __email__
-** __created_at__
-** __updated_at__
-** __login_status__
+    * __uuid__
+    * __name__
+    * __email__
+    * __created_at__
+    * __updated_at__
+    * __login_status__
