@@ -1,4 +1,4 @@
-# [PHP_]-APILoginRegister
+# [PHP_] - APILoginRegister
 
 
 ## Español
@@ -13,4 +13,15 @@ Fue realizado bajo la siguiente arquitectura:
 
 ### Pasos previos
 
-* Deberás crear una base de datos llamada __login_api__ con un cotejamiento __utf_general_ci__, ir a la sección SQL e improtar el archivo __login_api.sql__ que se sitúa en la carpeta __query__
+* Deberás crear una base de datos llamada __login_api__ con un cotejamiento __utf8_general_ci__, ir a la sección SQL e improtar el archivo __login_api.sql__ que se sitúa en la carpeta __query__
+
+### Cosas a considerar
+
+* La API se comunica a través del protocolo HTTP y en específico peticiones __POST__ para enviar los parámetros sin que estos viajen por la URL si no en la cabecera.
+* Las respuestas de las peticiones son en formato __JSON__ con los siguientes parametros (__SOLO SI LA RESPUESTA ES POSITIVA__):
+** __uuid__
+** __name__
+** __email__
+** __created_at__
+** __updated_at__
+** __login_status__
