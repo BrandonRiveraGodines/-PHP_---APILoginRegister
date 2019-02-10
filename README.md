@@ -24,7 +24,7 @@ Fue realizado bajo la siguiente arquitectura:
     * __created_at__
     * __updated_at__
     * __login_status__
-*Las respuestas __negativas__ de las peticiones son en formato __JSON__ con los siguientes parámetros:
+* Las respuestas __negativas__ de las peticiones son en formato __JSON__ con los siguientes parámetros:
     * __error__
     * __error_msg__
 
