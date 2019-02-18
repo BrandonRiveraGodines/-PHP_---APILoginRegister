@@ -1,6 +1,7 @@
 # [PHP_] - APILoginRegister
+## [PHP_] = PHP
 
-## Español
+### Español
 
 Éste pequeño ejercicio consiste en una pequeña API Rest realizada con PHP Nativo (Eso significa el PHP_ en el titulo) que será de utilidad para algunos usuarios que deseen implementar un login (inicio de sesión) y un registro para usuarios, así como su control en una base de datos, funciona a través de peticiones __HTTP__.
 
@@ -10,11 +11,11 @@ Fue realizado bajo la siguiente arquitectura:
 * PHP Versión 7.0.29
 * MySQL versión 5.7.21
 
-### Pasos previos
+#### Pasos previos
 
 * Deberás crear una base de datos llamada __login_api__ con un cotejamiento __utf8_general_ci__, ir a la sección SQL e importar el archivo __login_api.sql__ que se sitúa en la carpeta __query__
 
-### Cosas a considerar
+#### Cosas a considerar
 
 * La API se comunica a través del protocolo __HTTP__ y en específico peticiones __POST__ para enviar los parámetros sin que estos viajen por la URL si no en la cabecera.
 * Los parámetros que recibe al hacer la petición en la URL **_../../register_** son:
@@ -35,7 +36,7 @@ Fue realizado bajo la siguiente arquitectura:
     * __error__
     * __error_msg__
 
-## English
+### English
 
 This small exercise consists of a small API Rest made with PHP Native (That means the PHP_ in the title) that will be useful for some users who wish to implement a login and a registry for users, as well as its control in a database, It works through __HTTP__ requests.
 
@@ -45,11 +46,11 @@ It was made under the following architecture:
 * PHP Version 7.0.29
 * MySQL versión 5.7.21
 
-### Previous steps
+#### Previous steps
 
 * You must create a database called __login_api__ with a collation __utf8_general_ci__, go to the SQL section and import the file __login_api.sql__ that is placed in the folder __query__
 
-### Things to know
+#### Things to know
 
 * The API communicates through the __HTTP__ protocol and in specific __POST__ requests to send the parameters without them traveling through the URL if not in the header.
 * The parameters that you receive when making the request in the URL **_/login/register_** are:
